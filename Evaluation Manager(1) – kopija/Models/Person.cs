@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Evaluation_Manager.Models {
     public abstract class Person {
-        public int id { get; set; }
+        public int Id { get; set; }
         public string FirstName{ get; set; }
         public string LastName { get; set; }
 
